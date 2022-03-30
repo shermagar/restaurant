@@ -1,0 +1,5 @@
+.btn1{ background-color: #3c8dbc; width:170px; height: 50px;color:#fff;    border-color: #367fa9;  font-size: 25px; border-radius: 3px; }
+.btn2,.btn1:hover{background-color: #428bca; border-color: #357ebd;}
+.active{background-color: #c0c0c0;}
+.btn2{margin-left:70%; background-color: #3c8dbc; width:100px; height: 40px;color:#fff;    border-color: #367fa9;  font-size: 15px; border-radius: 3px; }
+ 

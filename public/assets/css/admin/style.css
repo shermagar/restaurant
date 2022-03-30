@@ -1,0 +1,14 @@
+#result-table th,td{
+    white-space: nowrap;
+}
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 1em; padding-left: 1.5em; font-size: 1em; ; }
+#sortable li span {  margin-right: 1em}
+
+
+.modal-body {
+    margin: 15px;
+}
+.ui-autocomplete-loading {
+	background: white url("../images/ui-anim_basic_16x16.gif") right center no-repeat;
+}
