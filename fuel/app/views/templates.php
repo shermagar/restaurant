@@ -1,11 +1,15 @@
 <title><?=$title?></title>
   <!-- <link rel="stylesheet" type="text/css" href="../assets/css/takeorder.css"> -->
-  <link rel="stylesheet" type="text/css" href="../assets/css/odrlst.css">
-   <link rel="stylesheet" type="text/css" href="../assets/css/swiper.min.css">
-   <link rel="stylesheet" type="text/css" href="../assets/css/all.css"> 
-   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
-<script src="<?php echo uri::base().'assets/js/swiper.min.js' ?>"></script>
-<script src="<?php echo uri::base().'assets/js/swiper.js' ?>"></script>
+  <link href="<?php echo Uri::create('assets/css/odrlst.css'); ?>" rel="stylesheet">
+  <link href="<?php echo Uri::create('assets/css/swiper.min.css'); ?>" rel="stylesheet">
+  <link href="<?php echo Uri::create('assets/css/all.css'); ?>" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/odrlst.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/all.css">  -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+  <script src="<?php echo uri::base().'assets/js/swiper.min.js' ?>"></script>
+  <script src="<?php echo uri::base().'assets/js/swiper.js' ?>"></script>
+
 <head><?=$header?></head>
 
 <body>

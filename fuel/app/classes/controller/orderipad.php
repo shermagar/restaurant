@@ -16,7 +16,7 @@
 
      return View::forge('ipad/checkbox_test'); 
     }
-    public function action_ipad()
+    public function action_index()
       {
         $pro = Model_Product::products();
         $ord = Model_Order::orderr();
