@@ -10,7 +10,7 @@
 <head><?=$header?></head>
 
 <body>
-	<?=$content?>
+	<?=$content?> test ist test but not test
 </body>
 
 
